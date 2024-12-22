@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body style="padding-top: 1%;">
+    <div class="header"
+        style="width: 100%; height: 3.5rem; display: flex; justify-content: space-between; position: fixed;">
+        <div style="width: 15%; display: flex;  " class="left">
+
+            <div style=" width: 30%;  display: flex; justify-content: end; " class="sidebar">
+                <img width="50%" height="100%" src="icons/hamburger-menu.svg" alt="">
+
+            </div>
+            <div style="width: 70%;  display: flex; align-items: center;" class="logo">
+                <img width="100%" height="50%" src="icons/youtube-logo.svg" alt="">
+
+            </div>
+
+
+
+
+        </div>
+        <div style="flex: 1;display: flex; justify-content: center;" class="middle">
+
+            <div style=" width: 75%; display: flex; ">
+
+                <div style="width: 90%; display: flex; justify-content: center;padding-top: 1%; padding-bottom: 1%;  ">
+                    <input type="text" placeholder="Search"
+                        style=" border-width: 1px;
+                border-style: solid;
+                border-color: rgb(192, 192, 192); width: 100%; padding-left: 2%; border-radius: 2px; font-size: large; " height="" name="" id="">
+                </div>
+                <div
+                    style=" border-width: 1px;
+            border-style: solid;
+            border-color: rgb(192, 192, 192); align-self: center;  background-color: rgb(240, 240, 240);  width: 10%; height: 72%; display: flex; align-items: center; border-radius: 2px;">
+                    <img class="img" width="100%" height="60%" src="icons/search.svg" alt="">
+
+                </div>
+            </div>
+            <div style=" width: 5%; display: flex; align-items: center; padding-left: 1%; ">
+                <img style=" border-radius: 100%;  background-color: rgb(245, 245, 245); width: 90%; height: 60%; "
+                    src="icons/voice-search-icon.svg" alt="">
+            </div>
+
+
+
+        </div>
+        <div style=" width: 25%; display: flex; justify-content: end;" class="right">
+
+            <div class="iconss upload"   style=" width: 15%; display: flex; align-items: center;">
+                <img width="100%" height="50%" src="icons/upload.svg" alt="">
+            </div>
+            <div  class="iconss" style="width: 15%;display: flex; align-items: center;">
+                <img width="100%" height="50%" src="icons/youtube-apps.svg" alt="">
+
+            </div>
+            <div class="iconss" style="width: 15%; display: flex; align-items: center;">
+                <img width="100%" height="50%" src="icons/notifications.svg" alt="">
+
+            </div>
+            <div  style="width: 15%;display: flex; align-items: center;">
+                <img style=" border-radius: 100%; overflow: hidden;" height="70%" src="channel-1.jpeg" alt="">
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div style=" align-items: center; margin-top: 2%; position: fixed;  height: 47rem;width: 7%; display: flex; flex-direction: column; justify-content: space-evenly;"
+        class="sidebar">
+        <div class="HOME"
+            style="    width: 50%; height: 8%;  display: flex; flex-direction: column; align-items: center; justify-content: center;  ">
+            <img  src="icons/home.svg" width="75%" height="50%" alt="">
+            <p>Home</p>
+        </div>
+        <div 
+            style="width: 50%; height: 8%;  display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+            <img src="icons/explore.svg" width="75%" height="50%" alt="">
+            <p>Explore</p>
+        </div>
+        <div    style=" width: 50%; height: 8%;   display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+            <img src="icons/subscriptions.svg" width="75%" height="50%" alt="">
+            <p>Subscriptions</p>
+        </div>
+        <div
+            style="width: 50%; height: 8%;   display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+            <img src="icons/originals.svg" width="75%" height="50%" alt="">
+            <p>Originals</p>
+        </div>
+
+        <div
+            style=" width: 100%; height: 8%;   display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+            <img src="icons/youtube-music.svg" width="75%" height="50%" alt="">
+            <p>Youtube Music</p>
+        </div>
+        <div
+            style="width: 50%; height: 8%;  display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+            <img src="icons/library.svg" width="75%" height="50%" alt="">
+            <p>Library</p>
+        </div>
+
+
+    </div>
+    <div class="grid" style="margin-left: 7%; position: relative; top: 4rem; display: grid;  grid-template-columns: 1fr 1fr 1fr 1fr; row-gap: 2rem;padding-top: 2%; padding-left: 2%; background-color: rgb(245, 245, 245);  ">
+        <div class="1 block" style="width: 20rem;  background-color: rgb(245, 245, 245); ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="thumbnail-1.webp" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        Talking Tech and AI with Google CEO 
+                        Sundar Pichai!
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        Marques Brownlee
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        3.4M views 6months ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
+        <div class="1 block" style="width: 20rem; ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="https://i.ytimg.com/vi/G3e-cpL7ofc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLBUgh1_V4HoNSYh1R1bwvpreiz1kA" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        HTML & CSS Full Course-Beginner to Pro
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        SuperSimpleDev
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        12M views 2 years ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
+        <div class="1 block" style="width: 20rem; ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="https://i.ytimg.com/vi/W1aZpug--F0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLBvxFC9JbQie-ha4luzYtHvb73Q0Q" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        Indian Crorepatis Crazy Life
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        Mohak Mangal
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        2.9M views 9 months ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
+        <div class="1 block" style="width: 20rem; ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="https://i.ytimg.com/vi/pdS1e3dlrsI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDE8ES0w-0x5KujmGqCTRfrYPLIew" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        Why DEEP OCEAN Creatures Look UGLY?
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        FactBhai
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        3.84K views 3 weeks ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
+        <div class="1 block" style="width: 20rem; ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="https://i.ytimg.com/vi/MIWT94zqRUU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&amp;rs=AOn4CLDYtgH3KeqewR5IEguJIk3FBDK5XA" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        Why It Sucked Being Born as a Titanoboa
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        DanBan
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        835k views 2 weeks ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
+
+        <div class="1 block" style="width: 20rem; ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="https://i.ytimg.com/vi/tpg3VvoIVfA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&amp;rs=AOn4CLCHVADyAsARRv_GLGQ0m7USt1NE3w" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        Can A Crow Solve 9 Impossible Puzzles?
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        Mark Rober
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        8M views 2 days ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+        <div class="1 block" style="width: 20rem; ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="thumbnail-1.webp" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        Talking Tech and AI with Google CEO 
+                        Sundar Pichai!
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        Marques Brownlee
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        3.4M views 6months ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+        <div class="1 block" style="width: 20rem; ">
+            <div style="width:100%; margin-bottom: 3%; ">
+                <img width="100%" height="100%" src="thumbnail-1.webp" alt="">
+
+            </div>
+            <div style="display: flex;" >
+                <div style="width: 15%; margin-right: 4%; ">
+                    <img width="100%" style="border-radius: 100%;" src="channel-1.jpeg" alt="">
+
+                </div>
+                <div>
+                    <div style="padding-top: 1%; font-weight: bold;" >
+                        Talking Tech and AI with Google CEO 
+                        Sundar Pichai!
+    
+                    </div>
+
+
+                    <div style="padding-top: 5%; color: rgb(96, 96, 96); font-size: small;">
+                        Marques Brownlee
+                    </div>
+                    <div style="padding-top: 1%; color: rgb(96, 96, 96); font-size: small;">
+                        3.4M views 6months ago
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+        
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
